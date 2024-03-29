@@ -1,0 +1,33 @@
+button#submit-btn {
+  background-color: var(--dark);
+  color: var(--light);
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+#form-h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 40px;
+} 
+
+form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  padding: 0px 20px 0px 20px;
+  width: 620px;
+}
+
+label {
+  padding: 5px;
+}
+
+#poster, #title, #content {
+  padding: 5px;
+  border-radius: 3px;
+};
+

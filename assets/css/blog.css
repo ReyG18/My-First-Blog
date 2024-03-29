@@ -1,0 +1,101 @@
+:root {
+  --dark: #000;
+  --light: #fff;
+}
+
+.dark-mode {
+  --light: #000;
+  --dark: #fff;
+}
+
+.mode-toggle {
+  border: none;
+  background-color: var(--light);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid var(--dark);
+  padding: 10px;
+  margin: 10px;
+}
+
+header h1 {
+  font-size: 25px;
+}
+
+header nav {
+  display: flex;
+}
+
+#back-button {
+  background-color: var(--dark);
+  color:var(--light);
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.light-mode {
+  border-style: none;
+}
+
+.card-container {
+  border: 3px solid var(--dark);
+  height: 550px;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.card {
+  border: 2px solid var(--dark);
+  border-radius: 3px;
+  margin: 10px;
+  padding: 5px;
+}
+
+#blog-title {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid var(--dark);
+  margin: 5px;
+}
+
+#blog-content {
+  font-size: 15px;
+  font-style: italic;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+#blog-poster {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+footer h3{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+
+footer li {
+  padding: 10px;
+}
